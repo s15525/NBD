@@ -1,0 +1,1 @@
+printjson(db.test.find({"sex":"Male","nationality":"Germany"}))

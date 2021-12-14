@@ -1,0 +1,1 @@
+db.test.insertOne({sex:"Male",first_name:"Lukasz",last_name:"Tolpa",job:"Developer",email:"luki@pjatk.edu.pl",location:{city:"Lezajsk",address:{streetname:"Krzyawa",streetnumber:"321"}},description:"detective programer",height:"138.2",weight:"80",birth_date:"2002-09-01T03:20:22Z",nationality:"Poland",credit:[{type:"paypal",number:"214214124",currency:'PLN',balance:"13213213"}]})

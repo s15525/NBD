@@ -1,0 +1,1 @@
+printjson(db.test.findOne({"sex":{$exists:true}}))
