@@ -1,0 +1,159 @@
+﻿[
+  {
+    "path": {
+"start": {
+"identity": 17,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "ORD"
+        }
+      },
+"end": {
+"identity": 271,
+"labels": [
+          "Flight"
+        ],
+"properties": {
+"date": "11/30/2015 05:26:41",
+"duration": 30,
+"distance": 108,
+"airline": "19977"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 11,
+"start": 123,
+"end": 17,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 123,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 04:08:17",
+"duration": 23,
+"distance": 108,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 123,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 04:08:17",
+"duration": 23,
+"distance": 108,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 12,
+"start": 123,
+"end": 1,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSN"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSN"
+            }
+          },
+          "relationship": {
+"identity": 250,
+"start": 271,
+"end": 1,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 271,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 05:26:41",
+"duration": 30,
+"distance": 108,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 271,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 05:26:41",
+"duration": 30,
+"distance": 108,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 251,
+"start": 271,
+"end": 17,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "price": 174.75
+  }
+]

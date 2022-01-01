@@ -1,0 +1,49 @@
+--TASK2--
+1.
+MATCH (town1 {name: "Darjeeling"}), (town2 {name: "Sandakphu"}), path = allShortestPaths((town1)-[*]->(town2))  
+RETURN path
+2.
+MATCH (town1 {name: "Darjeeling"}), (town2 {name: "Sandakphu"}), path = allShortestPaths((town1)-[*]->(town2))  
+WHERE ALL (properties in relationships(path) WHERE properties.winter = "true")
+RETURN relationships(path),path
+3/1
+MATCH path = ((town1 {name: "Darjeeling"})-[p*]->(town2 {name: "Sandakphu"}))
+UNWIND p as rel
+WITH path, REDUCE(x=0, a IN COLLECT(rel.distance) | x + a) AS  p_distance
+ORDER BY p_distance DESC
+RETURN path,p_distance
+//Zinterpretowalem polecenie jako 2 osobne podpunkty
+3/2
+MATCH path = ((town1 {name: "Darjeeling"})-[:twowheeler*]->(target))
+WHERE ALL (r in relationships(path) WHERE r.summer="true")
+RETURN path
+//TU NIC NIE MA W WYNIKACH!! Poniewaz nie posiada żadnej rel :twowheeler wychodzacej z Darjeeling
+--TASK3--
+4.
+MATCH (airport :Airport)<-[:ORIGIN]-(flight :Flight)
+WITH count(flight) AS countFlight, airport
+ORDER BY  countFlight desc
+RETURN airport, countFlight
+5.
+MATCH (airport {name:"LAX"})<-[:ORIGIN]-(flight :Flight)-[:DESTINATION|ORIGIN*..30]->(destination) ,(flight)<-[:ASSIGN]-(ticket:Ticket{class: "economy"})
+WHERE ALL ( a in ticket.price WHERE a < 3000)
+RETURN airport,flight,destination,ticket
+6.
+MATCH (airport {name:"LAX"})<-[:ORIGIN]-(flight:Flight)-[:DESTINATION|ORIGIN*..30]->(destination {name:"DAY"}) ,(flight)<-[:ASSIGN]-(ticket:Ticket)
+RETURN airport,flight,destination,ticket
+ORDER BY ticket.price DESC
+7.
+MATCH (airport {name:"LAX"})<-[:ORIGIN]-(flight:Flight)-[:DESTINATION|ORIGIN*..30]->(destination {name:"DAY"}) ,(flight)<-[:ASSIGN]-(ticket:Ticket)
+RETURN airport,flight,destination,ticket
+ORDER BY ticket.price ASC LIMIT 1
+8.
+MATCH (airport {name:"LAX"})<-[:ORIGIN]-(flight:Flight)-[:DESTINATION|ORIGIN*..30]->(destination {name:"DAY"}) ,(flight)<-[:ASSIGN]-(ticket:Ticket{class:"business"})
+RETURN airport,flight,destination,ticket
+ORDER BY ticket.price ASC LIMIT 1
+10.
+MATCH path = ((airport)<-[:ORIGIN]-(flight:Flight)-[:DESTINATION]->(airport2)<-[:ORIGIN]-(flight2:Flight)-[:DESTINATION]->(airport3))
+WITH path, REDUCE(sum = 0, part IN [x IN NODES(path) WHERE 'Flight' IN LABELS(x)] |
+  sum + [(part)<-[:ASSIGN]-(ticket {class: 'economy'}) | ticket.price][0]
+  ) as price
+RETURN path,price
+ORDER BY price asc LIMIT 1
