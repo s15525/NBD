@@ -1,0 +1,4 @@
+"C:\Program Files\Java\jdk-11.0.10\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.1\lib\idea_rt.jar=49598:C:\Program Files\JetBrains\IntelliJ IDEA 2021.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\Lukasz Tolpa\IdeaProjects\untitled2\target\classes;C:\Users\Lukasz Tolpa\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Lukasz Tolpa\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar" Main
+Bmw(fan=true)
+Bmw(fan=false)
+not found
