@@ -1,0 +1,33 @@
+1.
+curl -i --request PUT --header "Content-Type: application/json" --data '{"brand":"ferrari","regnum":"RLE2222","course":55555,"tread":22}' http://localhost:8098/buckets/s15525/keys/ferrari
+curl -i --request PUT --header "Content-Type: application/json" --data '{"brand":"BMW","regnum":"RLE2223","course":55535,"tread":30}' http://localhost:8098/buckets/s15525/keys/bmw
+curl -i --request PUT --header "Content-Type: application/json" --data '{"brand":"Mercedes","regnum":"RLE2224","course":15555,"tread":52}' http://localhost:8098/buckets/s15525/keys/mercedes
+curl -i --request PUT --header "Content-Type: application/json" --data '{"brand":"Toyota","regnum":"RLE2225","course":35555,"tread":42}' http://localhost:8098/buckets/s15525/keys/toyota
+curl -i --request PUT --header "Content-Type: application/json" --data '{"brand":"Audi","regnum":"RLE2226","course":45555,"tread":32}' http://localhost:8098/buckets/s15525/keys/audi
+
+2.
+curl -i --request GET  http://localhost:8098/buckets/s15525/keys/bmw
+
+3.
+curl -i --request PUT --header "Content-Type: application/json" --data '{"brand":"BMW","regnum":"RLE2223","course":55535,"tread":30,"accident":false}' http://localhost:8098/buckets/s15525/keys/bmw
+
+4.
+curl -i --request PUT --header "Content-Type: application/json" --data '{"brand":"Audi","regnum":"RLE2226","course":45555}' http://localhost:8098/buckets/s15525/keys/audi
+
+5.
+curl -i --request PUT --header "Content-Type: application/json" --data '{"brand":"Mercedes","regnum":"WAW2224","course":15555,"tread":52}' http://localhost:8098/buckets/s15525/keys/mercedes
+
+6.
+curl -i --request DELETE http://localhost:8098/buckets/s15525/keys/toyota
+
+7.
+curl -i --request GET http://localhost:8098/buckets/s15525/keys/toyota
+
+8.
+curl -i --request POST --header "Content-Type: application/json" --data '{"bmwfan":true}' http://localhost:8098/buckets/s15525/keys
+
+9.
+curl -i --request GET  http://localhost:8098/buckets/s15525/keys/UxBi9I8QYYdRwStiUMu5VEdnElG
+
+10.
+curl -i --request DELETE http://localhost:8098/buckets/s15525/keys/UxBi9I8QYYdRwStiUMu5VEdnElG

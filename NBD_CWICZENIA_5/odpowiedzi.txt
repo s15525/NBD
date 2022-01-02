@@ -1,0 +1,170 @@
+1.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 02 Jan 2022 19:32:28 GMT
+Content-Type: application/json
+Content-Length: 0
+
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 02 Jan 2022 19:37:18 GMT
+Content-Type: application/json
+Content-Length: 0
+
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 02 Jan 2022 19:38:06 GMT
+Content-Type: application/json
+Content-Length: 0
+
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 02 Jan 2022 19:38:32 GMT
+Content-Type: application/json
+Content-Length: 0
+
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 02 Jan 2022 19:38:52 GMT
+Content-Type: application/json
+Content-Length: 0
+
+2.
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvo8vbnsGEUpkzGNleFfldpsvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s15525>; rel="up"
+Last-Modified: Sun, 02 Jan 2022 19:37:18 GMT
+ETag: "63bKxG6XDux7WMGFm80Net"
+Date: Sun, 02 Jan 2022 19:41:16 GMT
+Content-Type: application/json
+Content-Length: 50
+
+'{brand:BMW,regnum:RLE2223,course:55535,tread:30}'
+
+3.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 02 Jan 2022 19:44:24 GMT
+Content-Type: application/json
+Content-Length: 0
+
+4.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 02 Jan 2022 19:45:26 GMT
+Content-Type: application/json
+Content-Length: 0
+
+5.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 02 Jan 2022 19:46:33 GMT
+Content-Type: application/json
+Content-Length: 0
+
+6.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 02 Jan 2022 19:47:28 GMT
+Content-Type: application/json
+Content-Length: 0
+
+7.
+HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 02 Jan 2022 19:48:14 GMT
+Content-Type: text/plain
+Content-Length: 10
+
+not found
+
+8.
+HTTP/1.1 201 Created
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s15525/keys/UxBi9I8QYYdRwStiUMu5VEdnElG
+Date: Sun, 02 Jan 2022 19:51:12 GMT
+Content-Type: application/json
+Content-Length: 0
+
+9.
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvo/P1zODCCUy5rEyGNS53ebLAgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s15525>; rel="up"
+Last-Modified: Sun, 02 Jan 2022 19:51:12 GMT
+ETag: "41LFPLmThrNX9qIXHp88uo"
+Date: Sun, 02 Jan 2022 19:53:19 GMT
+Content-Type: application/json
+Content-Length: 15
+
+'{bmwfan:true}'
+
+10.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 02 Jan 2022 19:54:16 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
