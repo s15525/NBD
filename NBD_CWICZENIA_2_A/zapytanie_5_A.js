@@ -6,7 +6,8 @@ db.test.aggregate(
   },
   {
     "$match":{
-      "nationality":'Poland'
+      "nationality":'Poland',
+      "sex":'Female'
     }
   },
   {
