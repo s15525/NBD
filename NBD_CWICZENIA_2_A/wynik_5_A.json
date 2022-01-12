@@ -1,264 +1,215 @@
-{ _id: 'DOP',
-  creditBalanceAVG: 5165.2,
-  creditBalanceSUM: 30991.199999999997 }
-{ _id: 'HRK',
-  creditBalanceAVG: 4842.825,
-  creditBalanceSUM: 29056.95 }
-{ _id: 'ILS',
-  creditBalanceAVG: 4957.085,
-  creditBalanceSUM: 19828.34 }
-{ _id: 'BOB',
-  creditBalanceAVG: 4701.8775000000005,
-  creditBalanceSUM: 18807.510000000002 }
-{ _id: 'PEN',
-  creditBalanceAVG: 5063.501333333334,
-  creditBalanceSUM: 75952.52 }
-{ _id: 'BAM',
-  creditBalanceAVG: 5505.19,
-  creditBalanceSUM: 5505.19 }
-{ _id: 'HNL',
-  creditBalanceAVG: 5490.6525,
-  creditBalanceSUM: 21962.61 }
-{ _id: 'MXN',
-  creditBalanceAVG: 5115.3475,
-  creditBalanceSUM: 81845.56 }
-{ _id: 'ISK',
-  creditBalanceAVG: 4629.87,
-  creditBalanceSUM: 9259.74 }
-{ _id: 'UYU',
-  creditBalanceAVG: 5715.87,
-  creditBalanceSUM: 5715.87 }
-{ _id: 'VEF',
-  creditBalanceAVG: 4053.095,
-  creditBalanceSUM: 16212.38 }
-{ _id: 'SEK',
-  creditBalanceAVG: 5200.783333333334,
-  creditBalanceSUM: 124818.8 }
-{ _id: 'PHP',
-  creditBalanceAVG: 4911.180697674418,
-  creditBalanceSUM: 211180.77 }
-{ _id: 'NPR',
-  creditBalanceAVG: 6130.945,
-  creditBalanceSUM: 12261.89 }
-{ _id: 'CAD',
-  creditBalanceAVG: 5122.615882352941,
-  creditBalanceSUM: 87084.47 }
-{ _id: 'THB',
-  creditBalanceAVG: 4747.117857142856,
-  creditBalanceSUM: 66459.65 }
-{ _id: 'CNY',
-  creditBalanceAVG: 5060.084413407822,
-  creditBalanceSUM: 905755.11 }
-{ _id: 'KYD',
-  creditBalanceAVG: 3760.89,
-  creditBalanceSUM: 3760.89 }
-{ _id: 'ALL',
-  creditBalanceAVG: 4665.2125,
-  creditBalanceSUM: 18660.85 }
-{ _id: 'ARS',
-  creditBalanceAVG: 4726.458181818182,
-  creditBalanceSUM: 51991.04 }
-{ _id: 'UAH',
-  creditBalanceAVG: 5049.3175,
-  creditBalanceSUM: 60591.81 }
-{ _id: 'XAF',
-  creditBalanceAVG: 4877.969999999999,
-  creditBalanceSUM: 24389.85 }
-{ _id: 'GTQ',
-  creditBalanceAVG: 5598.375,
-  creditBalanceSUM: 11196.75 }
-{ _id: 'BRL',
-  creditBalanceAVG: 4861.633055555556,
-  creditBalanceSUM: 175018.79 }
-{ _id: 'BYR',
-  creditBalanceAVG: 4653.083333333333,
-  creditBalanceSUM: 13959.25 }
-{ _id: 'MGA',
-  creditBalanceAVG: 5444.5125,
-  creditBalanceSUM: 43556.1 }
-{ _id: 'LKR',
-  creditBalanceAVG: 5121.185,
-  creditBalanceSUM: 10242.37 }
-{ _id: 'YER',
-  creditBalanceAVG: 4735.832,
-  creditBalanceSUM: 23679.16 }
-{ _id: 'NZD',
-  creditBalanceAVG: 5449.586666666667,
-  creditBalanceSUM: 16348.76 }
-{ _id: 'RUB',
-  creditBalanceAVG: 4762.416170212766,
-  creditBalanceSUM: 223833.56 }
-{ _id: 'CLP',
-  creditBalanceAVG: 5571.8983333333335,
-  creditBalanceSUM: 33431.39 }
+[
 { _id: 'PYG',
-  creditBalanceAVG: 4887.713333333333,
-  creditBalanceSUM: 14663.14 }
-{ _id: 'XOF',
-  creditBalanceAVG: 5634.8275,
-  creditBalanceSUM: 45078.62 }
-{ _id: 'COP',
-  creditBalanceAVG: 5232.073333333334,
-  creditBalanceSUM: 62784.880000000005 }
-{ _id: 'CUP',
-  creditBalanceAVG: 5108.405714285714,
-  creditBalanceSUM: 35758.84 }
-{ _id: 'UZS',
-  creditBalanceAVG: 3573.03,
-  creditBalanceSUM: 3573.03 }
-{ _id: 'LYD',
-  creditBalanceAVG: 4382.495,
-  creditBalanceSUM: 8764.99 }
-{ _id: 'ZAR',
-  creditBalanceAVG: 4370.838333333333,
-  creditBalanceSUM: 26225.03 }
+  creditBalanceAVG: 4874.69,
+  creditBalanceSUM: 4874.69 }
+{ _id: 'IDR',
+  creditBalanceAVG: 4907.918030303031,
+  creditBalanceSUM: 323922.59 }
+{ _id: 'IRR',
+  creditBalanceAVG: 4417.373333333333,
+  creditBalanceSUM: 26504.239999999998 }
 { _id: 'USD',
-  creditBalanceAVG: 4924.637179487179,
-  creditBalanceSUM: 192060.85 }
-{ _id: 'DKK',
-  creditBalanceAVG: 4610.61,
-  creditBalanceSUM: 4610.61 }
-{ _id: 'IQD',
-  creditBalanceAVG: 4979.825000000001,
-  creditBalanceSUM: 9959.650000000001 }
-{ _id: 'ETB',
-  creditBalanceAVG: 5041.063333333333,
-  creditBalanceSUM: 15123.189999999999 }
+  creditBalanceAVG: 5040.66875,
+  creditBalanceSUM: 80650.7 }
+{ _id: 'NOK',
+  creditBalanceAVG: 4773.66,
+  creditBalanceSUM: 4773.66 }
+{ _id: 'TZS',
+  creditBalanceAVG: 3526.1850000000004,
+  creditBalanceSUM: 7052.370000000001 }
+{ _id: 'BOB',
+  creditBalanceAVG: 5263.3,
+  creditBalanceSUM: 5263.3 }
 { _id: 'VUV',
   creditBalanceAVG: 6418.27,
   creditBalanceSUM: 6418.27 }
-{ _id: 'MKD',
-  creditBalanceAVG: 3916.665,
-  creditBalanceSUM: 7833.33 }
-{ _id: 'JOD',
-  creditBalanceAVG: 4944.06,
-  creditBalanceSUM: 4944.06 }
-{ _id: 'KMF',
-  creditBalanceAVG: 5908.92,
-  creditBalanceSUM: 5908.92 }
-{ _id: 'TJS',
-  creditBalanceAVG: 4052.0866666666666,
-  creditBalanceSUM: 12156.26 }
-{ _id: 'NGN',
-  creditBalanceAVG: 4507.222,
-  creditBalanceSUM: 45072.22 }
-{ _id: 'BGN',
-  creditBalanceAVG: 4926.494000000001,
-  creditBalanceSUM: 24632.47 }
-{ _id: 'CDF',
-  creditBalanceAVG: 6114.4,
-  creditBalanceSUM: 12228.8 }
-{ _id: 'SRD',
-  creditBalanceAVG: 5286.68,
-  creditBalanceSUM: 5286.68 }
-{ _id: 'XPF',
-  creditBalanceAVG: 4759.07,
-  creditBalanceSUM: 4759.07 }
-{ _id: 'NOK',
-  creditBalanceAVG: 5059.106666666667,
-  creditBalanceSUM: 15177.32 }
-{ _id: 'CZK',
-  creditBalanceAVG: 4988.9865,
-  creditBalanceSUM: 99779.73 }
-{ _id: 'IDR',
-  creditBalanceAVG: 4960.272773109244,
-  creditBalanceSUM: 590272.46 }
-{ _id: 'RSD',
-  creditBalanceAVG: 4816.786666666667,
-  creditBalanceSUM: 28900.72 }
-{ _id: 'AMD',
-  creditBalanceAVG: 4891.3925,
-  creditBalanceSUM: 39131.14 }
-{ _id: 'TZS',
-  creditBalanceAVG: 4816.92,
-  creditBalanceSUM: 19267.68 }
-{ _id: 'MYR',
-  creditBalanceAVG: 5054.014999999999,
-  creditBalanceSUM: 10108.029999999999 }
-{ _id: 'EUR',
-  creditBalanceAVG: 4927.3348,
-  creditBalanceSUM: 492733.48 }
-{ _id: 'MAD',
-  creditBalanceAVG: 4957.0633333333335,
-  creditBalanceSUM: 29742.38 }
 { _id: 'PLN',
-  creditBalanceAVG: 5145.1449999999995,
-  creditBalanceSUM: 205805.8 }
-{ _id: 'BWP',
-  creditBalanceAVG: 4076.29,
-  creditBalanceSUM: 4076.29 }
-{ _id: 'MMK',
-  creditBalanceAVG: 5832.616666666666,
-  creditBalanceSUM: 17497.85 }
-{ _id: 'MNT',
-  creditBalanceAVG: 5377.654,
-  creditBalanceSUM: 26888.27 }
-{ _id: 'KRW',
-  creditBalanceAVG: 5828.84,
-  creditBalanceSUM: 17486.52 }
-{ _id: 'PKR',
-  creditBalanceAVG: 4977.504285714285,
-  creditBalanceSUM: 34842.53 }
-{ _id: 'ZMW',
-  creditBalanceAVG: 5400.365,
-  creditBalanceSUM: 10800.73 }
-{ _id: 'AED',
-  creditBalanceAVG: 6405.57,
-  creditBalanceSUM: 6405.57 }
-{ _id: 'SLL',
-  creditBalanceAVG: 5229.885,
-  creditBalanceSUM: 10459.77 }
-{ _id: 'AFN',
-  creditBalanceAVG: 5301.305714285714,
-  creditBalanceSUM: 37109.14 }
-{ _id: 'SZL',
-  creditBalanceAVG: 4809.24,
-  creditBalanceSUM: 4809.24 }
-{ _id: 'EGP',
-  creditBalanceAVG: 4325.92,
-  creditBalanceSUM: 17303.68 }
+  creditBalanceAVG: 5042.821111111111,
+  creditBalanceSUM: 90770.78 }
+{ _id: 'MAD',
+  creditBalanceAVG: 3818.85,
+  creditBalanceSUM: 3818.85 }
 { _id: 'ZWL',
   creditBalanceAVG: 5792.17,
   creditBalanceSUM: 5792.17 }
-{ _id: 'KES',
-  creditBalanceAVG: 4399.1,
-  creditBalanceSUM: 4399.1 }
+{ _id: 'VND',
+  creditBalanceAVG: 4520.0325,
+  creditBalanceSUM: 36160.26 }
+{ _id: 'MKD',
+  creditBalanceAVG: 3835.05,
+  creditBalanceSUM: 3835.05 }
+{ _id: 'NZD',
+  creditBalanceAVG: 5328.46,
+  creditBalanceSUM: 5328.46 }
+{ _id: 'EUR',
+  creditBalanceAVG: 4901.8294,
+  creditBalanceSUM: 245091.47 }
+{ _id: 'TJS',
+  creditBalanceAVG: 4087.71,
+  creditBalanceSUM: 4087.71 }
+{ _id: 'CDF',
+  creditBalanceAVG: 6114.4,
+  creditBalanceSUM: 12228.8 }
+{ _id: 'ETB',
+  creditBalanceAVG: 5436.11,
+  creditBalanceSUM: 5436.11 }
+{ _id: 'BWP',
+  creditBalanceAVG: 4076.29,
+  creditBalanceSUM: 4076.29 }
+{ _id: 'AMD',
+  creditBalanceAVG: 4921.866,
+  creditBalanceSUM: 24609.33 }
+{ _id: 'ZMW',
+  creditBalanceAVG: 5569.56,
+  creditBalanceSUM: 5569.56 }
+{ _id: 'PHP',
+  creditBalanceAVG: 4941.928333333333,
+  creditBalanceSUM: 118606.28 }
+{ _id: 'AFN',
+  creditBalanceAVG: 5585.163333333334,
+  creditBalanceSUM: 16755.49 }
 { _id: 'MWK',
   creditBalanceAVG: 3574.42,
   creditBalanceSUM: 3574.42 }
+{ _id: 'PKR', creditBalanceAVG: 4734.5, creditBalanceSUM: 18938 }
+{ _id: 'THB',
+  creditBalanceAVG: 4604.392,
+  creditBalanceSUM: 23021.96 }
+{ _id: 'MMK',
+  creditBalanceAVG: 4629.42,
+  creditBalanceSUM: 4629.42 }
 { _id: 'KZT',
-  creditBalanceAVG: 4594.146,
-  creditBalanceSUM: 22970.73 }
+  creditBalanceAVG: 3788.95,
+  creditBalanceSUM: 3788.95 }
+{ _id: 'EGP',
+  creditBalanceAVG: 5579.3,
+  creditBalanceSUM: 5579.3 }
+{ _id: 'CNY',
+  creditBalanceAVG: 4954.740842105263,
+  creditBalanceSUM: 470700.38 }
+{ _id: 'KRW',
+  creditBalanceAVG: 6689.91,
+  creditBalanceSUM: 13379.82 }
+{ _id: 'SEK',
+  creditBalanceAVG: 5060.013571428572,
+  creditBalanceSUM: 70840.19 }
+{ _id: 'MNT',
+  creditBalanceAVG: 5428.9025,
+  creditBalanceSUM: 21715.61 }
+{ _id: 'RWF',
+  creditBalanceAVG: 4632.88,
+  creditBalanceSUM: 4632.88 }
+{ _id: 'VEF',
+  creditBalanceAVG: 4166.64,
+  creditBalanceSUM: 8333.28 }
+{ _id: 'MYR',
+  creditBalanceAVG: 4781.12,
+  creditBalanceSUM: 4781.12 }
 { _id: 'GBP',
   creditBalanceAVG: 6149.19,
   creditBalanceSUM: 6149.19 }
-{ _id: 'AUD',
-  creditBalanceAVG: 5107.425,
-  creditBalanceSUM: 10214.85 }
-{ _id: 'VND',
-  creditBalanceAVG: 4798.739230769231,
-  creditBalanceSUM: 62383.61 }
-{ _id: 'JPY',
-  creditBalanceAVG: 5121.097619047619,
-  creditBalanceSUM: 107543.05 }
-{ _id: 'TTD',
-  creditBalanceAVG: 5003.33,
-  creditBalanceSUM: 5003.33 }
 { _id: 'NIO',
   creditBalanceAVG: 4985.64,
   creditBalanceSUM: 9971.28 }
-{ _id: 'IRR',
-  creditBalanceAVG: 4478.326666666667,
-  creditBalanceSUM: 40304.94 }
-{ _id: 'MDL',
-  creditBalanceAVG: 3779.285,
-  creditBalanceSUM: 7558.57 }
-{ _id: 'GMD',
-  creditBalanceAVG: 5481.17,
-  creditBalanceSUM: 5481.17 }
-{ _id: 'RWF',
-  creditBalanceAVG: 5131.145,
-  creditBalanceSUM: 10262.29 }
-{ _id: 'NAD',
-  creditBalanceAVG: 4808.63,
-  creditBalanceSUM: 4808.63 }
+{ _id: 'JPY',
+  creditBalanceAVG: 5078.7283333333335,
+  creditBalanceSUM: 60944.74 }
+{ _id: 'ISK',
+  creditBalanceAVG: 4316.41,
+  creditBalanceSUM: 4316.41 }
+{ _id: 'ILS',
+  creditBalanceAVG: 5431.83,
+  creditBalanceSUM: 16295.49 }
+{ _id: 'DOP',
+  creditBalanceAVG: 5168.6849999999995,
+  creditBalanceSUM: 20674.739999999998 }
+{ _id: 'UZS',
+  creditBalanceAVG: 3573.03,
+  creditBalanceSUM: 3573.03 }
+{ _id: 'CAD',
+  creditBalanceAVG: 5306.872727272727,
+  creditBalanceSUM: 58375.6 }
+{ _id: 'HRK',
+  creditBalanceAVG: 4870.964,
+  creditBalanceSUM: 24354.82 }
+{ _id: 'LYD',
+  creditBalanceAVG: 4382.495,
+  creditBalanceSUM: 8764.99 }
+{ _id: 'PEN',
+  creditBalanceAVG: 4645.469999999999,
+  creditBalanceSUM: 23227.35 }
+{ _id: 'HNL',
+  creditBalanceAVG: 5504.863333333334,
+  creditBalanceSUM: 16514.59 }
+{ _id: 'NPR',
+  creditBalanceAVG: 5792.26,
+  creditBalanceSUM: 5792.26 }
+{ _id: 'ARS', creditBalanceAVG: 4648.4, creditBalanceSUM: 23242 }
+{ _id: 'SRD',
+  creditBalanceAVG: 5286.68,
+  creditBalanceSUM: 5286.68 }
+{ _id: 'XOF',
+  creditBalanceAVG: 5960.683333333333,
+  creditBalanceSUM: 17882.05 }
+{ _id: 'XAF',
+  creditBalanceAVG: 4698.22,
+  creditBalanceSUM: 14094.66 }
+{ _id: 'ZAR',
+  creditBalanceAVG: 3930.306666666667,
+  creditBalanceSUM: 11790.92 }
+{ _id: 'CUP',
+  creditBalanceAVG: 5005.78,
+  creditBalanceSUM: 15017.34 }
+{ _id: 'IQD',
+  creditBalanceAVG: 4269.39,
+  creditBalanceSUM: 4269.39 }
+{ _id: 'ALL',
+  creditBalanceAVG: 3325.48,
+  creditBalanceSUM: 3325.48 }
+{ _id: 'YER',
+  creditBalanceAVG: 4570.833333333333,
+  creditBalanceSUM: 13712.5 }
+{ _id: 'RSD',
+  creditBalanceAVG: 4276.56,
+  creditBalanceSUM: 4276.56 }
+{ _id: 'GTQ',
+  creditBalanceAVG: 5806.3,
+  creditBalanceSUM: 5806.3 }
+{ _id: 'CLP',
+  creditBalanceAVG: 5252.2375,
+  creditBalanceSUM: 21008.95 }
+{ _id: 'CZK',
+  creditBalanceAVG: 4644.5525,
+  creditBalanceSUM: 37156.42 }
+{ _id: 'UAH',
+  creditBalanceAVG: 5058.9800000000005,
+  creditBalanceSUM: 40471.840000000004 }
+{ _id: 'MGA',
+  creditBalanceAVG: 4853.663333333333,
+  creditBalanceSUM: 14560.99 }
+{ _id: 'KYD',
+  creditBalanceAVG: 3760.89,
+  creditBalanceSUM: 3760.89 }
+{ _id: 'MXN', creditBalanceAVG: 5022.9, creditBalanceSUM: 50229 }
+{ _id: 'NGN',
+  creditBalanceAVG: 4157.705,
+  creditBalanceSUM: 24946.23 }
+{ _id: 'BRL',
+  creditBalanceAVG: 4512.001818181819,
+  creditBalanceSUM: 49632.020000000004 }
+{ _id: 'RUB',
+  creditBalanceAVG: 4989.547916666666,
+  creditBalanceSUM: 119749.15 }
+{ _id: 'BGN',
+  creditBalanceAVG: 5300.22,
+  creditBalanceSUM: 21200.88 }
+{ _id: 'XPF',
+  creditBalanceAVG: 4759.07,
+  creditBalanceSUM: 4759.07 }
+{ _id: 'COP',
+  creditBalanceAVG: 4936.6825,
+  creditBalanceSUM: 19746.73 }
+{ _id: 'BYR',
+  creditBalanceAVG: 5095.79,
+  creditBalanceSUM: 5095.79 }
+  ]
